@@ -33,11 +33,11 @@ counter = 0
 end
 
 def return_string_array(array)
-  counter = 0
+  count = 0
  
-  while counter < array.length do
-  array[counter].to_s
-  counter += 1
+  while count < array.length do
+  array[count] = array[count].to_s
+  count += 1
   end
   array
 end
